@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\BuzzBundle\SensioBuzzBundle(),
             new SpotifyPublicAPIBundle\SpotifyPublicAPIBundle()
         );
+        
 
         return $bundles;
     }
